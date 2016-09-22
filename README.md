@@ -8,8 +8,8 @@
 | 2  | Aug 27 | JUnit                         |Pruebas sobre clases anteriores. Fibonacci      |                                                |
 | 3  | Sep 3  | GIT. Encapsulamiento          |Contador de ganado. Control de versiones        |                                                |
 | 4  | Sep 10 | Herencia.                     |Juego de Rol. Razas y ataques.                  |                                                |
-| 5  | Sep 17 | Polimorfismo. Colec / Excep.  |                                                | Liberación de la consigna                      |
-| 6  | Sep 24 | Patron de diseño              |                                                |                                                |
+| 5  | Sep 17 | Polimorfismo.                 |Juego de Rol. Atacable y Batallón               | Liberación de la consigna                      |
+| 6  | Sep 24 | Patrón de diseño              |                                                | Dudas                                          |
 | 7  | Oct 1  | Threads + Sockets             |                                                | Diagrama de Clases                             |
 | 8  | Oct 8  | Swing                         |                                                |                                                |
 | 9  | Oct 15 | Swing                         |                                                | Historias de Usuario y Criterios de Aceptación |
