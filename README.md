@@ -10,7 +10,7 @@
 | 4  | Sep 10 | Herencia                      |Juego de Rol. Razas y ataques                   |                                                |
 | 5  | Sep 17 | Polimorfismo                  |Juego de Rol. Atacable y Batallón               | Liberación de la consigna                      |
 | 6  | Sep 24 | Patrón de diseño              |Ítems en Juego de Rol. Patrón Decorator         | Dudas                                          |
-| 7  | Oct 1  | Colecciones. Exceptiones      |                                                | Diagrama de Clases                             |
+| 7  | Oct 1  | Colecciones. Exceptiones      |Libro de Hechizos, en el juego de Rol           | Diagrama de Clases                             |
 | 8  | Oct 8  | Threads + Sockets             |                                                |                                                |
 | 9  | Oct 15 | Swing                         |                                                | Historias de Usuario y Criterios de Aceptación |
 | 10 | Oct 22 | Swing                         |                                                |                                                |
