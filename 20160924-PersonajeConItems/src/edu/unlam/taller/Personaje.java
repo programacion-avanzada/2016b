@@ -45,4 +45,12 @@ public abstract class Personaje implements Atacable {
 
 	public abstract int obtenerPuntosDeDefensa();
 
+	public boolean tiene(Class decorado) {
+		return false;
+	}
+
+	public Personaje desequipar(Class decorado) {
+		return this;
+	}
+
 }

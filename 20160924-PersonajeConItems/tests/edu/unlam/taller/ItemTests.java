@@ -59,4 +59,20 @@ public class ItemTests {
 		sigmund = new ConAnilloDraupnir(sigmund);
 		Assert.assertEquals((5 + 10) * 2, sigmund.obtenerPuntosDeAtaque());
 	}
+	
+	@Test
+	public void quePuedoQuitarUnItem() {
+		Personaje sigmund = new Humano();
+		sigmund = new ConEspadaSkofnung(sigmund);
+		sigmund = new ConAnilloDraupnir(sigmund);
+		sigmund = new ConEscudoSvalinn(sigmund);
+		
+		Assert.assertTrue(sigmund.tiene(ConAnilloDraupnir.class));
+		sigmund = sigmund.desequipar(ConAnilloDraupnir.class);
+		Assert.assertFalse(sigmund.tiene(ConAnilloDraupnir.class));
+		
+		Assert.assertTrue(sigmund.tiene(ConEspadaSkofnung.class));
+		sigmund = sigmund.desequipar(ConEspadaSkofnung.class);
+		Assert.assertFalse(sigmund.tiene(ConEspadaSkofnung.class));
+	}
 }
